@@ -1,0 +1,35 @@
+//===============================================================
+//			   ___                   __           
+//			  / (_)_ ____ _____ ____/ /  __ _____ 
+//			 / / / // / // / -_) __/ _ \/ // / _ \
+//			/_/_/\_, /\_,_/\__/\__/_//_/\_,_/_//_/
+//			    /___/
+//				 
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝= = ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//     Created by 黎跃春 on 15/6/26.
+//     Copyright (c) 2015年 黎跃春. All rights reserved.
+//＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝= = ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+//    《iOS编程之美》技术讨论群：343640780
+//     群规：群成员请以实名制为备注，否则管理员会不定期清理非实名制成员
+//     电子邮件：liyuechun2009@163.com
+//     QQ:939442932 －－》笑傲人生
+//     github:https://github.com/LiYueChun
+//     简书地址:http://www.jianshu.com/users/336468483205/latest_articles
+//     新浪微博：http://weibo.com/liyuechun
+//     新浪博客：http://blog.sina.com.cn/liycforios
+//     请关注哥的新浪微博，哥会实时将最新，最前沿的技术分享到
+//     新浪微博，除了分享最新技术以外，还会将最新OC／UI／高级网络／各种
+//     装逼技术的视频上传的百度网盘，并通过新浪微博分享给大家
+//================================================================
+
+
+
+
+
+#ifndef HuaRenJie_PrefixHeader_pch
+#define HuaRenJie_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

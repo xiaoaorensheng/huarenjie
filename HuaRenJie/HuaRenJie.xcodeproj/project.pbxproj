@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		098EF9EBA5CA405DAB89F604 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 026B6A06C4A4E294E479D9BE /* libPods.a */; };
+		48937E891B28755C00E595DE /* LiycDistributeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48937E771B28755C00E595DE /* LiycDistributeViewController.m */; };
+		48937E8A1B28755C00E595DE /* LiycDistributeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48937E781B28755C00E595DE /* LiycDistributeViewController.xib */; };
+		48937E8B1B28755C00E595DE /* LiycDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48937E7B1B28755C00E595DE /* LiycDiscoverViewController.m */; };
+		48937E8C1B28755C00E595DE /* LiycDiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48937E7C1B28755C00E595DE /* LiycDiscoverViewController.xib */; };
+		48937E8D1B28755C00E595DE /* LiycNearbyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48937E7F1B28755C00E595DE /* LiycNearbyViewController.m */; };
+		48937E8E1B28755C00E595DE /* LiycNearbyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48937E801B28755C00E595DE /* LiycNearbyViewController.xib */; };
+		48937E8F1B28755C00E595DE /* LiycHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48937E831B28755C00E595DE /* LiycHomePageViewController.m */; };
+		48937E901B28755C00E595DE /* LiycHomePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48937E841B28755C00E595DE /* LiycHomePageViewController.xib */; };
+		48937E911B28755C00E595DE /* LiycOwnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48937E871B28755C00E595DE /* LiycOwnViewController.m */; };
+		48937E921B28755C00E595DE /* LiycOwnViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48937E881B28755C00E595DE /* LiycOwnViewController.xib */; };
+		48937E951B28757A00E595DE /* LiycRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48937E941B28757A00E595DE /* LiycRootViewController.m */; };
+		48944DC31B229B96008BE444 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48944DC21B229B96008BE444 /* main.m */; };
+		48944DC61B229B96008BE444 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48944DC51B229B96008BE444 /* AppDelegate.m */; };
+		48944DC81B229B96008BE444 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48944DC71B229B96008BE444 /* Images.xcassets */; };
+		48944DCB1B229B96008BE444 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48944DC91B229B96008BE444 /* LaunchScreen.xib */; };
+		48944DD71B229B96008BE444 /* HuaRenJieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48944DD61B229B96008BE444 /* HuaRenJieTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48944DD11B229B96008BE444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48944DB51B229B96008BE444 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48944DBC1B229B96008BE444;
+			remoteInfo = HuaRenJie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026B6A06C4A4E294E479D9BE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		42630862F58EBF9F935D7B8F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		480319901B3D9C89009885C1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		48937E761B28755C00E595DE /* LiycDistributeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiycDistributeViewController.h; sourceTree = "<group>"; };
+		48937E771B28755C00E595DE /* LiycDistributeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiycDistributeViewController.m; sourceTree = "<group>"; };
+		48937E781B28755C00E595DE /* LiycDistributeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiycDistributeViewController.xib; sourceTree = "<group>"; };
+		48937E7A1B28755C00E595DE /* LiycDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiycDiscoverViewController.h; sourceTree = "<group>"; };
+		48937E7B1B28755C00E595DE /* LiycDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiycDiscoverViewController.m; sourceTree = "<group>"; };
+		48937E7C1B28755C00E595DE /* LiycDiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiycDiscoverViewController.xib; sourceTree = "<group>"; };
+		48937E7E1B28755C00E595DE /* LiycNearbyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiycNearbyViewController.h; sourceTree = "<group>"; };
+		48937E7F1B28755C00E595DE /* LiycNearbyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiycNearbyViewController.m; sourceTree = "<group>"; };
+		48937E801B28755C00E595DE /* LiycNearbyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiycNearbyViewController.xib; sourceTree = "<group>"; };
+		48937E821B28755C00E595DE /* LiycHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiycHomePageViewController.h; sourceTree = "<group>"; };
+		48937E831B28755C00E595DE /* LiycHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiycHomePageViewController.m; sourceTree = "<group>"; };
+		48937E841B28755C00E595DE /* LiycHomePageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiycHomePageViewController.xib; sourceTree = "<group>"; };
+		48937E861B28755C00E595DE /* LiycOwnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiycOwnViewController.h; sourceTree = "<group>"; };
+		48937E871B28755C00E595DE /* LiycOwnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiycOwnViewController.m; sourceTree = "<group>"; };
+		48937E881B28755C00E595DE /* LiycOwnViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiycOwnViewController.xib; sourceTree = "<group>"; };
+		48937E931B28757A00E595DE /* LiycRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiycRootViewController.h; sourceTree = "<group>"; };
+		48937E941B28757A00E595DE /* LiycRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiycRootViewController.m; sourceTree = "<group>"; };
+		48944DBD1B229B96008BE444 /* HuaRenJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuaRenJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48944DC11B229B96008BE444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48944DC21B229B96008BE444 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48944DC41B229B96008BE444 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48944DC51B229B96008BE444 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48944DC71B229B96008BE444 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		48944DCA1B229B96008BE444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		48944DD01B229B96008BE444 /* HuaRenJieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuaRenJieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48944DD51B229B96008BE444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48944DD61B229B96008BE444 /* HuaRenJieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuaRenJieTests.m; sourceTree = "<group>"; };
+		DAC86056E3C0E53C5DB04ACD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48944DBA1B229B96008BE444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098EF9EBA5CA405DAB89F604 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48944DCD1B229B96008BE444 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48937E561B28744900E595DE /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				48937E931B28757A00E595DE /* LiycRootViewController.h */,
+				48937E941B28757A00E595DE /* LiycRootViewController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		48937E751B28755C00E595DE /* 发布 */ = {
+			isa = PBXGroup;
+			children = (
+				48937E761B28755C00E595DE /* LiycDistributeViewController.h */,
+				48937E771B28755C00E595DE /* LiycDistributeViewController.m */,
+				48937E781B28755C00E595DE /* LiycDistributeViewController.xib */,
+			);
+			path = "发布";
+			sourceTree = "<group>";
+		};
+		48937E791B28755C00E595DE /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				48937E7A1B28755C00E595DE /* LiycDiscoverViewController.h */,
+				48937E7B1B28755C00E595DE /* LiycDiscoverViewController.m */,
+				48937E7C1B28755C00E595DE /* LiycDiscoverViewController.xib */,
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		48937E7D1B28755C00E595DE /* 附近 */ = {
+			isa = PBXGroup;
+			children = (
+				48937E7E1B28755C00E595DE /* LiycNearbyViewController.h */,
+				48937E7F1B28755C00E595DE /* LiycNearbyViewController.m */,
+				48937E801B28755C00E595DE /* LiycNearbyViewController.xib */,
+			);
+			path = "附近";
+			sourceTree = "<group>";
+		};
+		48937E811B28755C00E595DE /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				48937E821B28755C00E595DE /* LiycHomePageViewController.h */,
+				48937E831B28755C00E595DE /* LiycHomePageViewController.m */,
+				48937E841B28755C00E595DE /* LiycHomePageViewController.xib */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		48937E851B28755C00E595DE /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				48937E861B28755C00E595DE /* LiycOwnViewController.h */,
+				48937E871B28755C00E595DE /* LiycOwnViewController.m */,
+				48937E881B28755C00E595DE /* LiycOwnViewController.xib */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		48944DB41B229B96008BE444 = {
+			isa = PBXGroup;
+			children = (
+				48944DBF1B229B96008BE444 /* HuaRenJie */,
+				48944DD31B229B96008BE444 /* HuaRenJieTests */,
+				48944DBE1B229B96008BE444 /* Products */,
+				DCAEFE49D31BF63F60AF9070 /* Pods */,
+				669008F728228586D5B4AFD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48944DBE1B229B96008BE444 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48944DBD1B229B96008BE444 /* HuaRenJie.app */,
+				48944DD01B229B96008BE444 /* HuaRenJieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48944DBF1B229B96008BE444 /* HuaRenJie */ = {
+			isa = PBXGroup;
+			children = (
+				48944DE01B229D5B008BE444 /* C */,
+				48944DE11B229D5B008BE444 /* M */,
+				48944DE21B229D5B008BE444 /* Utils */,
+				48944DE31B229D5B008BE444 /* V */,
+				48944DE41B229D5B008BE444 /* Vender */,
+				48944DC41B229B96008BE444 /* AppDelegate.h */,
+				48944DC51B229B96008BE444 /* AppDelegate.m */,
+				48944DC71B229B96008BE444 /* Images.xcassets */,
+				48944DC91B229B96008BE444 /* LaunchScreen.xib */,
+				48944DC01B229B96008BE444 /* Supporting Files */,
+			);
+			path = HuaRenJie;
+			sourceTree = "<group>";
+		};
+		48944DC01B229B96008BE444 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48944DC11B229B96008BE444 /* Info.plist */,
+				48944DC21B229B96008BE444 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48944DD31B229B96008BE444 /* HuaRenJieTests */ = {
+			isa = PBXGroup;
+			children = (
+				48944DD61B229B96008BE444 /* HuaRenJieTests.m */,
+				48944DD41B229B96008BE444 /* Supporting Files */,
+			);
+			path = HuaRenJieTests;
+			sourceTree = "<group>";
+		};
+		48944DD41B229B96008BE444 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48944DD51B229B96008BE444 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48944DE01B229D5B008BE444 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				48937E751B28755C00E595DE /* 发布 */,
+				48937E791B28755C00E595DE /* 发现 */,
+				48937E7D1B28755C00E595DE /* 附近 */,
+				48937E811B28755C00E595DE /* 首页 */,
+				48937E851B28755C00E595DE /* 我的 */,
+				48937E561B28744900E595DE /* TabBarController */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		48944DE11B229D5B008BE444 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		48944DE21B229D5B008BE444 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				480319901B3D9C89009885C1 /* PrefixHeader.pch */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		48944DE31B229D5B008BE444 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		48944DE41B229D5B008BE444 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		669008F728228586D5B4AFD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				026B6A06C4A4E294E479D9BE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCAEFE49D31BF63F60AF9070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42630862F58EBF9F935D7B8F /* Pods.debug.xcconfig */,
+				DAC86056E3C0E53C5DB04ACD /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48944DBC1B229B96008BE444 /* HuaRenJie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48944DDA1B229B96008BE444 /* Build configuration list for PBXNativeTarget "HuaRenJie" */;
+			buildPhases = (
+				E232FB17AFB26D6074EA21D1 /* Check Pods Manifest.lock */,
+				48944DB91B229B96008BE444 /* Sources */,
+				48944DBA1B229B96008BE444 /* Frameworks */,
+				48944DBB1B229B96008BE444 /* Resources */,
+				CBA4E6E0A343259AD9B0529C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuaRenJie;
+			productName = HuaRenJie;
+			productReference = 48944DBD1B229B96008BE444 /* HuaRenJie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48944DCF1B229B96008BE444 /* HuaRenJieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48944DDD1B229B96008BE444 /* Build configuration list for PBXNativeTarget "HuaRenJieTests" */;
+			buildPhases = (
+				48944DCC1B229B96008BE444 /* Sources */,
+				48944DCD1B229B96008BE444 /* Frameworks */,
+				48944DCE1B229B96008BE444 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48944DD21B229B96008BE444 /* PBXTargetDependency */,
+			);
+			name = HuaRenJieTests;
+			productName = HuaRenJieTests;
+			productReference = 48944DD01B229B96008BE444 /* HuaRenJieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48944DB51B229B96008BE444 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Liyc;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "黎跃春";
+				TargetAttributes = {
+					48944DBC1B229B96008BE444 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					48944DCF1B229B96008BE444 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 48944DBC1B229B96008BE444;
+					};
+				};
+			};
+			buildConfigurationList = 48944DB81B229B96008BE444 /* Build configuration list for PBXProject "HuaRenJie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48944DB41B229B96008BE444;
+			productRefGroup = 48944DBE1B229B96008BE444 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48944DBC1B229B96008BE444 /* HuaRenJie */,
+				48944DCF1B229B96008BE444 /* HuaRenJieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48944DBB1B229B96008BE444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48937E8A1B28755C00E595DE /* LiycDistributeViewController.xib in Resources */,
+				48944DCB1B229B96008BE444 /* LaunchScreen.xib in Resources */,
+				48937E8E1B28755C00E595DE /* LiycNearbyViewController.xib in Resources */,
+				48937E921B28755C00E595DE /* LiycOwnViewController.xib in Resources */,
+				48937E901B28755C00E595DE /* LiycHomePageViewController.xib in Resources */,
+				48937E8C1B28755C00E595DE /* LiycDiscoverViewController.xib in Resources */,
+				48944DC81B229B96008BE444 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48944DCE1B229B96008BE444 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CBA4E6E0A343259AD9B0529C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E232FB17AFB26D6074EA21D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48944DB91B229B96008BE444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48944DC61B229B96008BE444 /* AppDelegate.m in Sources */,
+				48937E891B28755C00E595DE /* LiycDistributeViewController.m in Sources */,
+				48937E8D1B28755C00E595DE /* LiycNearbyViewController.m in Sources */,
+				48937E8B1B28755C00E595DE /* LiycDiscoverViewController.m in Sources */,
+				48937E911B28755C00E595DE /* LiycOwnViewController.m in Sources */,
+				48944DC31B229B96008BE444 /* main.m in Sources */,
+				48937E8F1B28755C00E595DE /* LiycHomePageViewController.m in Sources */,
+				48937E951B28757A00E595DE /* LiycRootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48944DCC1B229B96008BE444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48944DD71B229B96008BE444 /* HuaRenJieTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48944DD21B229B96008BE444 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48944DBC1B229B96008BE444 /* HuaRenJie */;
+			targetProxy = 48944DD11B229B96008BE444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48944DC91B229B96008BE444 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48944DCA1B229B96008BE444 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48944DD81B229B96008BE444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48944DD91B229B96008BE444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48944DDB1B229B96008BE444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42630862F58EBF9F935D7B8F /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HuaRenJie/Utils/PrefixHeader.pch";
+				INFOPLIST_FILE = HuaRenJie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48944DDC1B229B96008BE444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAC86056E3C0E53C5DB04ACD /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HuaRenJie/Utils/PrefixHeader.pch";
+				INFOPLIST_FILE = HuaRenJie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		48944DDE1B229B96008BE444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HuaRenJieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuaRenJie.app/HuaRenJie";
+			};
+			name = Debug;
+		};
+		48944DDF1B229B96008BE444 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HuaRenJieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuaRenJie.app/HuaRenJie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48944DB81B229B96008BE444 /* Build configuration list for PBXProject "HuaRenJie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48944DD81B229B96008BE444 /* Debug */,
+				48944DD91B229B96008BE444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48944DDA1B229B96008BE444 /* Build configuration list for PBXNativeTarget "HuaRenJie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48944DDB1B229B96008BE444 /* Debug */,
+				48944DDC1B229B96008BE444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48944DDD1B229B96008BE444 /* Build configuration list for PBXNativeTarget "HuaRenJieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48944DDE1B229B96008BE444 /* Debug */,
+				48944DDF1B229B96008BE444 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48944DB51B229B96008BE444 /* Project object */;
+}
